@@ -1,4 +1,4 @@
-package su.goodcat.commonlib.faign;
+package su.goodcat.commonlib.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
