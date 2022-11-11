@@ -1,10 +1,11 @@
 package su.goodcat.commonlib.domain;
 
-import lombok.Value;
+import lombok.Data;
 
-@Value
+@Data
 public class CounterpartyDocumentRequestDTO {
-    FrontStatus frontStatus;
-    Status forbiddenStatus;
-    long counterpartyID;
+    private FrontStatus frontStatus;
+    private Status forbiddenStatus;
+    private long counterpartyID;
+    private long userId;
 }
