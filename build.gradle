@@ -24,7 +24,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.4'
-    compileOnly "org.springframework.boot:spring-boot-starter-security"
+
 }
 
 tasks.named('test') {

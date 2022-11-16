@@ -2,10 +2,10 @@ package su.goodcat.commonlib.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-import su.goodcat.commonlib.domain.*;
+import su.goodcat.commonlib.domain.User;
+import su.goodcat.commonlib.domain.UserDTO;
+import su.goodcat.commonlib.domain.UserSearchDTO;
 
 import java.util.List;
 

@@ -2,7 +2,6 @@ package su.goodcat.commonlib.domain;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;
-import org.springframework.security.core.GrantedAuthority;
 
 @Getter
 @Setter
@@ -10,16 +9,11 @@ import org.springframework.security.core.GrantedAuthority;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class Role implements GrantedAuthority {
+public class Role  {
 
     public Long id;
 
     private String roleName;
-
-    @Override
-    public String getAuthority() {
-        return roleName;
-    }
 
 }
 
